@@ -10,6 +10,6 @@
     = csrf_meta_tags
   %body{:class => body_class}
     = render "flashes"
-    = yield
+    = render template: 'layouts/fie'
     = render "javascript"
     = render "css_overrides"
