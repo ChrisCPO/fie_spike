@@ -1,5 +1,6 @@
 class HelloWorldsController < ApplicationController
   def index
-    @messages = ['Hello World!']
+    @element = Element.new
+    @element.change_color
   end
 end

@@ -1,5 +1,5 @@
 class HelloWorldsCommander < Fie::Commander
-  def say_hello
-    state.messages << 'Hello World!'
+  def change_color
+    state.element = state.element.change_color
   end
 end

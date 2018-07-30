@@ -10,6 +10,7 @@ ruby "2.5.1"
 
 gem "autoprefixer-rails"
 gem "bootsnap", require: false
+gem "faker"
 gem "fie"
 gem "flutie"
 gem "haml"

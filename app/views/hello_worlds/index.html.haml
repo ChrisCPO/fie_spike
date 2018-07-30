@@ -1,7 +1,3 @@
-%b Messages
-%br/
-- @messages.each do |message|
-  = message
-  %br/
-%br/
-%button{"fie-click" => "say_hello"} Say hello
+%div
+  %button{style: @element.style, "fie-click" => "change_color"}= "Change Color"
+  %div{style: @element.style}= @element.style
